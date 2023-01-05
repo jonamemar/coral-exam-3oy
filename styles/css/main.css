@@ -1,0 +1,279 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: 500;
+  scroll-behavior: smooth;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.container {
+  margin: 0 auto;
+  width: 1200px;
+  height: 100vh;
+}
+.container .navbar {
+  width: 100%;
+  height: 80px;
+  position: fixed;
+  z-index: 100;
+  display: flex;
+  top: 0;
+  left: 0;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 2px solid black;
+  background-color: white;
+  padding: 0 2rem;
+}
+.container .navbar ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+}
+.container .showcase {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 10rem;
+}
+.container .showcase .text {
+  padding: 5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 20px;
+}
+.container .showcase .text .p2 {
+  font-size: 58px;
+}
+.container .showcase .text .btn {
+  width: 90px;
+  height: 35px;
+  border: none;
+  border-radius: 10px;
+  background-color: #212529;
+  color: aliceblue;
+}
+.container .premiumCard {
+  text-align: center;
+  background-color: rgba(253, 255, 255, 0.842);
+}
+.container .premiumCard h2 {
+  font-size: 40px;
+  padding-block: 4rem;
+}
+.container .premiumCard .grid {
+  width: 1200px;
+  min-height: 400px;
+  display: flex;
+  justify-content: space-between;
+  gap: 4rem;
+}
+.container .premiumCard .grid .one-card {
+  height: 400px;
+  width: 500px;
+  padding: 3rem;
+}
+.container .premiumCard .grid .four-card {
+  display: flex;
+  padding-left: 2rem;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  height: 600px;
+  width: 700px;
+  align-items: center;
+  gap: 20px;
+}
+.container .logos {
+  display: flex;
+  justify-content: space-evenly;
+  padding-block: 10rem;
+}
+.container .newPraducts {
+  background-color: rgba(253, 255, 255, 0.842);
+  padding-block: 3rem;
+  text-align: center;
+}
+.container .newPraducts h2 {
+  padding-block: 4rem;
+  font-size: 40px;
+}
+.container .newPraducts .news {
+  flex-wrap: wrap;
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 1200px;
+  min-height: 800px;
+}
+.container .bestPraducts {
+  background-color: rgba(253, 255, 255, 0.842);
+  padding-block: 3rem;
+  text-align: center;
+}
+.container .bestPraducts h2 {
+  padding-block: 4rem;
+  font-size: 40px;
+}
+.container .bestPraducts .best {
+  display: flex;
+  justify-content: space-between;
+  gap: 3rem;
+  width: 1200px;
+  min-height: 400px;
+}
+.container .footer {
+  display: flex;
+  justify-content: space-evenly;
+  font-size: 19px;
+  font-weight: 500;
+}
+.container .footer .logo {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 0.6rem;
+}
+.container .footer .logo .img {
+  width: 190px;
+}
+.container .footer .catalog {
+  display: flex;
+  flex-direction: column;
+  width: 250px;
+  gap: 0.6rem;
+}
+.container .bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: aliceblue;
+  padding: 0.6rem 2rem;
+  background-color: #212529;
+}
+.container .bottom .scroll {
+  background-color: #212529;
+  width: 100px;
+  height: 45px;
+  border-radius: 10px;
+  color: aliceblue;
+}
+.container .card-container1 {
+  background-color: white;
+  width: 526px;
+  height: 532px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .card-container1 .card-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 500px;
+  height: 450px;
+}
+.container .card-container1 .bottom-div {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .card-container1 .bottom-div .raiting i {
+  color: gold;
+}
+.container .card-container2 {
+  background-color: white;
+  width: 263px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .card-container2 .card-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 210px;
+  height: 150px;
+}
+.container .card-container2 .bottom-div {
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .card-container2 .bottom-div .raiting i {
+  color: gold;
+}
+.container .card-container3 {
+  background-color: white;
+  width: 243px;
+  height: 330px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+.container .card-container3 .card-img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 200px;
+  height: 250px;
+}
+.container .card-container3 .bottom-div {
+  padding: 0 20px;
+  width: 100%;
+  height: 50px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.container .card-container3 .bottom-div .raiting i {
+  color: gold;
+}
+
+i {
+  color: gold;
+}
+
+.search {
+  width: 1200px;
+  height: 30px;
+  background-color: white;
+  border: #212529 1px solid;
+  border-radius: 10px;
+  box-shadow: grey 8px 8px 8px;
+  margin-top: 50px;
+  text-align: left 10px;
+}
+
+.search-container {
+  width: 1200px;
+  min-height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  justify-content: space-between;
+  padding: 3rem;
+}/*# sourceMappingURL=main.css.map */
